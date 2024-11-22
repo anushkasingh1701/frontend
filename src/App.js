@@ -10,7 +10,7 @@ function App() {
   const handleSubmit = async () => {
     try {
       const parsedInput = JSON.parse(jsonInput);
-      const res = await axios.post('https://backend.herokuapp.com/bfhl', parsedInput); // Update with your backend URL
+      const res = await axios.post('https://github.com/anushkasingh1701/backend', parsedInput); // Update with your backend URL
       setResponse(res.data);
     } catch (error) {
       alert('Invalid JSON input');
